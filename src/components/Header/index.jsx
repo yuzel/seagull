@@ -5,17 +5,17 @@ import styles from './index.module.scss';
 const MENUS = [
   {
     name: '个人简介',
-    path: '#design',
+    path: '#resume',
     subName: 'RESUME'
   },
   {
     name: <span>项&nbsp;&nbsp;&nbsp;&nbsp;目</span>,
-    path: '#material',
+    path: '#project',
     subName: 'PROJECT'
   },
   {
     name: '作品展示',
-    path: '#brandlist',
+    path: '#works',
     subName: 'WORKS'
   },
 ];

@@ -1,11 +1,10 @@
 import React from 'react';
-import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import LandingIntroBanner from './components/LandingIntroBanner';
-import IceworksInfo from './components/IceworksInfo';
-import DesignLanguage from './components/DesignLanguage';
-import Materials from './components/Materials';
-import BrandList from './components/BrandList';
+import PersonalProfile from './components/PersonalProfile';
+import Project from './components/Project';
+import Works from './components/Works';
+
 
 export default function Home() {
   return (
@@ -17,19 +16,15 @@ export default function Home() {
     >
       <Header />
       <LandingIntroBanner />
-      <div id="iceworks">
-        <IceworksInfo />
+      <div id="resume">
+        <PersonalProfile />
       </div>
-      <div id="design">
-        <DesignLanguage />
+      <div id="project">
+        <Project />
       </div>
-      <div id="material">
-        <Materials />
+      <div id="works">
+        <Works />
       </div>
-      <div id="brandlist">
-        <BrandList />
-      </div>
-      <Footer />
     </div>
   );
 }

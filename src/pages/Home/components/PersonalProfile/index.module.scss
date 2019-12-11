@@ -1,0 +1,58 @@
+
+.resume{
+  display: flex;
+  justify-content: center;
+  padding-top: 56px;
+}
+
+.resumeImg{
+  border: 1px dashed;
+}
+
+.photo{
+  display: flex;
+  justify-content: center;
+  padding-top: 65px;
+}
+.name{
+  font-size:23px;
+  font-family:Microsoft YaHei;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+}
+
+.post{
+  font-size:22px;
+  font-family:Microsoft YaHei;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+}
+
+.introductionTitle{
+  font-size:22px;
+  font-family:Microsoft YaHei;
+  font-weight:400;
+  color:rgba(153,153,153,1);
+}
+
+.introduction{
+  padding-left: 80px;
+  font-size:22px;
+  font-family:Microsoft YaHei;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+}
+
+.projectTime{
+  font-size:22px;
+  font-family:Microsoft YaHei;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+}
+.project{
+  padding-left: 29px;
+  font-size:22px;
+  font-family:Microsoft YaHei;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+}

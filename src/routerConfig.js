@@ -17,6 +17,10 @@ const routerConfig = [
         redirect: '/home',
       },
       {
+        path: '/resume',
+        component: NotFound,
+      },
+      {
         component: NotFound,
       },
     ],
