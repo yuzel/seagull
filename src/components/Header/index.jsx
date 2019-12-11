@@ -1,21 +1,22 @@
 import React from 'react';
 import Logo from '../Logo';
 import styles from './index.module.scss';
+import Anchor, { Link } from '@alifd/biz-anchor';
 
 const MENUS = [
   {
     name: '个人简介',
-    path: '#resume',
+    path: '#home/resume',
     subName: 'RESUME'
   },
   {
     name: <span>项&nbsp;&nbsp;&nbsp;&nbsp;目</span>,
-    path: '#project',
+    path: '#home/project',
     subName: 'PROJECT'
   },
   {
     name: '作品展示',
-    path: '#works',
+    path: '#home/works',
     subName: 'WORKS'
   },
 ];
@@ -25,18 +26,18 @@ export default function Header() {
     <div className={styles.headerContainer}>
       <Logo />
       <div className={styles.headerContent}>
-        <div className={styles.headerNavbar}>
+        <Anchor className={styles.headerNavbar}>
           {
             MENUS.map((item, idx) => {
               return (
-                <a key={idx} className={styles.headerMenuItem} href={item.path}>
+                <Link key={idx} className={styles.headerMenuItem} href={item.path} title={<>
                   <p className={styles.name}>{item.name}</p>
-                  <p className={styles.subName}>{item.subName}</p>
-                </a>
+                  <p className={styles.subName}>{item.subName}</p></>}>
+                </Link>
               );
             })
           }
-        </div>
+        </Anchor>
       </div>
     </div>
   );

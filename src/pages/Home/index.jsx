@@ -16,13 +16,13 @@ export default function Home() {
     >
       <Header />
       <LandingIntroBanner />
-      <div id="resume">
+      <div id="home/resume">
         <PersonalProfile />
       </div>
-      <div id="project">
+      <div id="home/project">
         <Project />
       </div>
-      <div id="works">
+      <div id="home/works">
         <Works />
       </div>
     </div>
