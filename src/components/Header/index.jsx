@@ -23,22 +23,26 @@ const MENUS = [
 
 export default function Header() {
   return (
-    <div className={styles.headerContainer}>
-      <Logo />
-      <div className={styles.headerContent}>
-        <Anchor className={styles.headerNavbar}>
-          {
-            MENUS.map((item, idx) => {
-              return (
-                <Link key={idx} className={styles.headerMenuItem} href={item.path} title={<>
-                  <p className={styles.name}>{item.name}</p>
-                  <p className={styles.subName}>{item.subName}</p></>}>
-                </Link>
-              );
-            })
-          }
-        </Anchor>
+    <Anchor>
+      <div className={styles.headerContainer} id="headerContent">
+        <div className={styles.headerContent} >
+          <Logo />
+          <div className={styles.headerNavbar}>
+            {
+              MENUS.map((item, idx) => {
+                return (
+                  <div className={styles.headerMenuItem}>
+                    <Link key={idx} href={item.path} title={<>
+                      <p className={styles.name}>{item.name}</p>
+                      <p className={styles.subName}>{item.subName}</p></>}>
+                    </Link>
+                  </div>
+                );
+              })
+            }
+          </div>
+        </div>
       </div>
-    </div>
+    </Anchor >
   );
 }

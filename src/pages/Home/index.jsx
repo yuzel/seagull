@@ -8,12 +8,7 @@ import Works from './components/Works';
 
 export default function Home() {
   return (
-    <div
-      className="home-page"
-      style={{
-        background: '#fff',
-      }}
-    >
+    <div>
       <Header />
       <LandingIntroBanner />
       <div id="home/resume">

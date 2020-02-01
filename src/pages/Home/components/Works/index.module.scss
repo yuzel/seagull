@@ -16,3 +16,27 @@
     justify-content: center;
     padding-top: 26px;
 }
+
+.iconShow{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.iconShowPic{
+    height: 220px;
+    width: 222px;
+    padding-left: 2px;
+}
+
+.posterShow{
+    display: flex; 
+    width: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.posterPicShow{
+    width: 29%;
+}
