@@ -24,30 +24,33 @@
 
     .headerMenuItem {
       margin-left: 60px;
-      
 
       &:hover {
         opacity: 0.8;
       }
     }
   }
-  .name{
-    font-size:24px;
-    font-family:Microsoft YaHei;
-    font-weight:400;
-    color:rgba(227,227,227,1);
+  .name {
+    font-size: 24px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(227, 227, 227, 1);
     text-align: center;
   }
-  .subName{
-    font-size:14px;
-    font-family:Microsoft YaHei;
-    font-weight:400;
-    color:rgba(227,227,227,1);
+  .subName {
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(227, 227, 227, 1);
     text-align: center;
+  }
+  .aa {
+    background-color: olive;
   }
 }
 // .biz-anchor .biz-anchor-link {
-  /* padding: 3px 0 3px 16px; */
-  /* line-height: 1; */
-  /* border-left: 2px solid #e8e8e8; */
+/* padding: 3px 0 3px 16px; */
+/* line-height: 1; */
+/* border-left: 2px solid #e8e8e8; */
 // }
+

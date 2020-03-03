@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../Logo';
 import styles from './index.module.scss';
 import Anchor, { Link } from '@alifd/biz-anchor';
-
+import './style.scss'
 const MENUS = [
   {
     name: '个人简介',
@@ -23,7 +23,7 @@ const MENUS = [
 
 export default function Header() {
   return (
-    <Anchor>
+    <Anchor className="header-anchor">
       <div className={styles.headerContainer} id="headerContent">
         <div className={styles.headerContent} >
           <Logo />
@@ -31,8 +31,8 @@ export default function Header() {
             {
               MENUS.map((item, idx) => {
                 return (
-                  <div className={styles.headerMenuItem}>
-                    <Link key={idx} href={item.path} title={<>
+                  <div key={idx} className={styles.headerMenuItem}>
+                    <Link   key={idx} href={item.path} title={<>
                       <p className={styles.name}>{item.name}</p>
                       <p className={styles.subName}>{item.subName}</p></>}>
                     </Link>
