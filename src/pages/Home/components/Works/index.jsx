@@ -37,10 +37,10 @@ export default function Works() {
                 <img src={icon} alt="" />
             </div>
             <div className={styles.iconShow}>
-                <div style={{ width: '38%' }}>
-                    <Slider slidesToShow={2} arrowPosition="outer" lazyLoad dots={false} autoplay autoplaySpeed={3000}>
-                        <div style={{ width: '22.7%' }}><img src={icon1} alt="" className={styles.iconShowPic} /></div>
-                        <div style={{ width: '22.7%' }}><img src={icon2} alt="" className={styles.iconShowPic} /></div>
+                <div style={{ width: 500 }}>
+                    <Slider slidesToShow={2} arrowPosition="outer" lazyLoad dots={false} autoplay autoplaySpeed={2000}>
+                        <div style={{ width: 230 }}><img src={icon1} alt="" className={styles.iconShowPic} /></div>
+                        <div style={{ width: 230 }}><img src={icon2} alt="" className={styles.iconShowPic} /></div>
                     </Slider>
                 </div>
             </div>

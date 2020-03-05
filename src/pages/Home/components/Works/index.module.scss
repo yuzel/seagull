@@ -19,8 +19,9 @@
 
 .iconShow{
     display: flex;
-    justify-content: center;
     padding-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .iconShowPic{
@@ -31,7 +32,6 @@
 
 .posterShow{
     display: flex; 
-    // width: 50%;
     max-width: 700px;
     flex-direction: row;
     flex-wrap: wrap;
