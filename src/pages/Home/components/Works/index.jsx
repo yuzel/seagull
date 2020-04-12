@@ -28,19 +28,27 @@ export default function Works() {
     return (
         <div>
             <div className={styles.title}>
-                <img src={title} alt="" />
+                <img src={title} alt="" style={{width: '20%'}} />
             </div>
             <div className={styles.iconArrow}>
                 <img src={arrow} alt="" />
             </div>
             <div className={styles.icon}>
-                <img src={icon} alt="" />
+                <img src={icon} alt="" className={styles.iconImg}/>
             </div>
             <div className={styles.iconShow}>
                 <div style={{ width: 500 }}>
                     <Slider slidesToShow={2} arrowPosition="outer" lazyLoad dots={false} autoplay autoplaySpeed={2000}>
-                        <div style={{ width: 230 }}><img src={icon1} alt="" className={styles.iconShowPic} /></div>
-                        <div style={{ width: 230 }}><img src={icon2} alt="" className={styles.iconShowPic} /></div>
+                        <div style={{ width: 230 }}>
+                            <a href="/#/foodIcon">
+                                <img src={icon1} alt="" className={styles.iconShowPic} />
+                            </a>
+                        </div>
+                        <div style={{ width: 230 }}>
+                            <a href="/#/foodIcon">
+                                <img src={icon2} alt="" className={styles.iconShowPic} />
+                            </a>
+                        </div>
                     </Slider>
                 </div>
             </div>
@@ -48,33 +56,43 @@ export default function Works() {
                 <img src={arrow} alt="" />
             </div>
             <div className={styles.icon}>
-                <img src={illustration} alt="" />
+                <img src={illustration} alt="" className={styles.iconImg}/>
             </div>
             <div className={styles.iconShow}>
-                <div className={styles.posterShow}>
-                    <div className={styles.posterPicShow}>
+                <div className={styles.illustrationShow}>
+                    <div className={styles.illustrationPicShow}>
                         <a href="/#/bjLandmark">
-                            <img src={illustration1} alt="" className={styles.iconShowPic} />
+                            <img src={illustration1} alt="" className={styles.posterImg} />
                         </a>
                     </div>
-                    <div className={styles.posterPicShow}>
+                    <div className={styles.illustrationPicShow}>
                         <a href="/#/child">
-                            <img src={illustration2} alt="" className={styles.iconShowPic} />
+                            <img src={illustration2} alt="" className={styles.posterImg} />
                         </a>
                     </div>
-                    <div className={styles.posterPicShow}><img src={illustration3} alt="" className={styles.iconShowPic} /></div>
+                    <div className={styles.illustrationPicShow}>
+                        <img src={illustration3} alt="" className={styles.posterImg} />
+                    </div>
                 </div>
             </div>
             <div className={styles.iconArrow}>
                 <img src={arrow} alt="" />
             </div>
             <div className={styles.icon}>
-                <img src={poster} alt="" />
+                <img src={poster} alt="" className={styles.iconImg}/>
             </div>
             <div className={styles.iconShow}>
-                <div className={styles.posterShow}>
-                    <div className={styles.posterPicShow}><img src={poster1} alt="" className={styles.iconShowPic} /></div>
-                    <div className={styles.posterPicShow}><img src={poster2} alt="" className={styles.iconShowPic} /></div>
+                <div className={styles.illustrationShow}>
+                    <div className={styles.illustrationPicShow}>
+                        <a href="/#/foodPoster">
+                            <img src={poster1} alt="" className={styles.posterImg} />
+                        </a>
+                    </div>
+                    <div className={styles.illustrationPicShow}>
+                        <a href="/#/foodPoster">
+                            <img src={poster2} alt="" className={styles.posterImg} />
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className={styles.iconArrow}>

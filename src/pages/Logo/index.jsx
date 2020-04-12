@@ -17,13 +17,15 @@ export default function Logo() {
         <div>
             <Header />
             <img src={banner} style={{ maxWidth: '100%' }} />
-            <img src={design_method} className={styles.pic} />
-            <img src={pic1} className={styles.pic} />
-            <img src={pic2} className={styles.pic} />
-            <img src={pic3} className={styles.pic} />
-            <img src={pic4} className={styles.pic} />
-            <img src={final_effect} className={styles.pic} />
-            <img src={anther} className={styles.pic} />
+            <div className={styles.show}>
+                <img src={design_method} className={styles.pic} style={{marginLeft: -13}}/>
+                <img src={pic1} className={styles.pic} />
+                <img src={pic2} className={styles.pic} />
+                <img src={pic3} className={styles.pic} />
+                <img src={pic4} className={styles.pic} />
+                <img src={final_effect} className={styles.pic} />
+                <img src={anther} className={styles.pic} style={{marginLeft: -157}} />
+            </div>
         </div>
     );
 }

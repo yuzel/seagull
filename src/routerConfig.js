@@ -6,6 +6,8 @@ import FontDesign from '@/pages/FontDesign';
 import Child from '@/pages/Child';
 import CouldCourt from '@/pages/CouldCourt';
 import Neighbours from '@/pages/Neighbours';
+import FoodPoster from '@/pages/FoodPoster';
+import FoodIcon from '@/pages/FoodIcon';
 import NotFound from '@/pages/NotFound';
 import BlankLayout from '@/layouts/BlankLayout';
 
@@ -45,6 +47,14 @@ const routerConfig = [
       {
         path: '/neighbours',
         component: Neighbours,
+      },
+      {
+        path: '/foodPoster',
+        component: FoodPoster,
+      },
+      {
+        path: '/foodIcon',
+        component: FoodIcon,
       },
       {
         component: NotFound,

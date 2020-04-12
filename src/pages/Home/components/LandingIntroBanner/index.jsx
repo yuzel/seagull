@@ -21,8 +21,8 @@ export default function LandingIntroBanner() {
           <div >
             <img src={DESIGN} width="587" height="72" />
           </div>
-          <div className={styles.font}><span>设计&nbsp;&nbsp;&nbsp;&nbsp;形式追随功能</span></div>
-          <div className={styles.font2}>BHO WEBSITE</div>
+          <div className={styles.font}><span>设&nbsp;计&nbsp;&nbsp;&nbsp;&nbsp;形&nbsp;式&nbsp;追&nbsp;随&nbsp;功&nbsp;能</span></div>
+          <div className={styles.font2}>B&nbsp;H&nbsp;O&nbsp;&nbsp;&nbsp;&nbsp;W&nbsp;E&nbsp;B&nbsp;S&nbsp;I&nbsp;T&nbsp;E</div>
           <div style={{ marginLeft: 90, paddingTop: 40 }}>
             <img src={FGX} width="422" height="6" />
           </div>

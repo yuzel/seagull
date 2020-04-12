@@ -6,7 +6,7 @@
   z-index: 999;
   justify-content: center;
   background: #433f47;
-  height: 90px;
+  height: 80px;
 
   .headerContent {
     display: flex;
@@ -31,14 +31,14 @@
     }
   }
   .name {
-    font-size: 24px;
+    font-size: 18px;
     font-family: Microsoft YaHei;
     font-weight: 400;
     color: rgba(227, 227, 227, 1);
     text-align: center;
   }
   .subName {
-    font-size: 14px;
+    font-size: 12px;
     font-family: Microsoft YaHei;
     font-weight: 400;
     color: rgba(227, 227, 227, 1);

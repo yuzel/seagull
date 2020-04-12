@@ -9,7 +9,7 @@ export default function Logo(props) {
       className="logo"
     >
       {/* <a href="/" style={{ display: 'block', position: 'relative' }}> */}
-      <img src={logo} height="90" alt="logo" />
+      <img src={logo} height="80" alt="logo" />
       {/* </a> */}
     </div>
   );

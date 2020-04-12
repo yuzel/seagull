@@ -17,6 +17,10 @@
     padding-top: 26px;
 }
 
+.iconImg{
+    width: 5%;
+}
+
 .iconShow{
     display: flex;
     padding-top: 30px;
@@ -32,7 +36,7 @@
 
 .posterShow{
     display: flex; 
-    max-width: 700px;
+    max-width: 750px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: start;
@@ -42,4 +46,24 @@
     // width: 29%;
     padding: 0 3px;
     margin-top: 24px;
+}
+
+.illustrationShow{
+    display: flex; 
+    max-width: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.illustrationPicShow{
+    // width: 29%;
+    padding: 0 3px;
+    margin-top: 24px;
+}
+
+.posterImg{
+    width: 170px;
+    height: 224px;
+    padding-left: 2px;
 }
