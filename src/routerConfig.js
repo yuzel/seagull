@@ -8,6 +8,8 @@ import CouldCourt from '@/pages/CouldCourt';
 import Neighbours from '@/pages/Neighbours';
 import FoodPoster from '@/pages/FoodPoster';
 import FoodIcon from '@/pages/FoodIcon';
+import ChalkOne from '@/pages/ChalkOne';
+import ChalkTwo from '@/pages/ChalkTwo';
 import NotFound from '@/pages/NotFound';
 import BlankLayout from '@/layouts/BlankLayout';
 
@@ -55,6 +57,14 @@ const routerConfig = [
       {
         path: '/foodIcon',
         component: FoodIcon,
+      },
+      {
+        path: '/chalkOne',
+        component: ChalkOne,
+      },
+      {
+        path: '/chalkTwo',
+        component: ChalkTwo,
       },
       {
         component: NotFound,

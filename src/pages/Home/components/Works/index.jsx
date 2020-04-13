@@ -71,7 +71,9 @@ export default function Works() {
                         </a>
                     </div>
                     <div className={styles.illustrationPicShow}>
-                        <img src={illustration3} alt="" className={styles.posterImg} />
+                        <a href="/#/chalkOne">
+                            <img src={illustration3} alt="" className={styles.posterImg} />
+                        </a>
                     </div>
                 </div>
             </div>
@@ -99,7 +101,7 @@ export default function Works() {
                 <img src={arrow} alt="" />
             </div>
             <div className={styles.icon}>
-                <img src={font} alt="" />
+                <img src={font} alt="" className={styles.iconImg}/>
             </div>
             <div className={styles.iconShow}>
                 <div className={styles.posterShow}>

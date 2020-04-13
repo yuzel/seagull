@@ -1,0 +1,31 @@
+.pic{
+    max-width: 35%;
+    margin-top: 20px;
+}
+
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phoneShow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.phonePicShow{
+    padding: 0 3px;
+    // margin-top: 24px;
+}
+
+.phoneImg{
+    width: 166px;
+    height: 307px;
+    padding-left: 2px;
+}

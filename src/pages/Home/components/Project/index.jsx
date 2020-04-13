@@ -25,7 +25,7 @@ export default function Project() {
                 <div className={styles.projectPicShow}>
                     <img src={pro1} alt="" className={styles.projectImg} />
                 </div>
-                </div>
+            </div>
         </div>
     );
 }
