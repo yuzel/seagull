@@ -1,11 +1,6 @@
 .pic{
-    max-width: 60%;
-    margin-top: 20px;
-}
-
-.head{
     max-width: 100%;
-    // margin-top: 20px;
+    margin-top: 20px;
 }
 
 .wapper{
@@ -16,18 +11,16 @@
     align-items: center;
 }
 
-.bannerShow{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 40%;
-    background-color: white;
-}
-
 .show{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.centerShow{
+    width: 800px;
+    background-color: white;
+    background-size: 800px auto;
+    background-repeat: no-repeat;
 }

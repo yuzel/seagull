@@ -15,14 +15,16 @@ export default function LandingIntroBanner() {
     return (
         <div>
             <img src={banner} style={{ maxWidth: '100%' }} />
-            <img src={pic1} className={styles.pic} />
-            <img src={pic2} className={styles.pic} />
-            <img src={pic3} className={styles.pic} />
-            <img src={pic4} className={styles.pic} />
-            <img src={pic5} className={styles.pic} />
-            <img src={pic6} className={styles.pic} />
-            <img src={pic7} className={styles.pic} />
-            <img src={pic8} className={styles.pic} />
+            <div className={styles.show}>
+                <img src={pic1} className={styles.pic} />
+                <img src={pic2} className={styles.pic} />
+                <img src={pic3} className={styles.pic} />
+                <img src={pic4} className={styles.pic} />
+                <img src={pic5} className={styles.pic} />
+                <img src={pic6} className={styles.pic} />
+                <img src={pic7} className={styles.pic} />
+                <img src={pic8} className={styles.pic} style={{marginBottom: 20}}/>
+            </div>
         </div >
     );
 }

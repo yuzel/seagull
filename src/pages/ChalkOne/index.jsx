@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './index.module.scss';
 import Header from '@/components/Header';
+import { Button } from '@alifd/next';
 
 const top = require('./images/top.png');
 const pic1 = require('./images/1.png');
@@ -18,7 +19,10 @@ const banner1 = require('./images/banner1.png');
 const banner2 = require('./images/banner2.png');
 const banner3 = require('./images/banner3.png');
 
-
+const props = {
+    component: 'a',
+    href: '/#/chalkTwo'
+};
 
 
 export default function ChalkOne() {
@@ -48,12 +52,14 @@ export default function ChalkOne() {
                         <img src={phone4} alt="" className={styles.phoneImg} />
                     </div>
             </div>
-            <div className={styles.show} style={{marginTop: 30}}>
-                <img src={banner0} style={{marginLeft: -300, width: '12%'}}/>
-                <img src={banner1} className={styles.pic} />
-                <img src={banner2} className={styles.pic} />
-                <img src={banner3} className={styles.pic} />
-            
+            <div className={styles.show} style={{marginTop: 30, marginBottom: 30}}>
+                <div className={styles.bannerShow}>
+                    <img src={banner0} style={{width: '25%'}}/>
+                    <img src={banner1} className={styles.banner} />
+                    <img src={banner2} className={styles.banner} />
+                    <img src={banner3} className={styles.banner} />
+                </div>
+                <Button {...props} type="secondary" size="large" style={{backgroundColor: '#433f47'}}>下一页</Button>
             </div>
         </div>
     );

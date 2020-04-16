@@ -9,7 +9,7 @@ export default function ProductIntro() {
   return (
     <div>
       <div className={styles.resume}>
-        <img className={styles.resumeImg} src={resume} style={{width: '25%'}} alt="" />
+        <img className={styles.resumeImg} src={resume} style={{width: '20%'}} alt="" />
       </div>
       <div className={styles.photo}>
         <img className={styles.resumeImg} src={photo} style={{width: '20%'}} alt="" />

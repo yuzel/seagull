@@ -69,14 +69,16 @@
   right: 0;
   bottom: 0;
   left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
   .landingIntroBannerContent {
-    padding-right: 15px;
-    padding-top: 30px;
-    padding-left: 15px;
+    // padding-right: 15px;
+    margin-top: 250px;
+    // padding-top: 100px;
+    // padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .landingIntroBannerButtons {
@@ -88,7 +90,7 @@
   }
 }
 .font{
-  margin-left: 200px;
+  // margin-left: 200px;
   padding-top: 20px;
   width:268px;
   height:24px;
@@ -99,7 +101,7 @@
 }
 
 .font2{
-  margin-left: 194px;
+  // margin-left: 194px;
   padding-top: 40px;
   width:233px;
   height:16px;

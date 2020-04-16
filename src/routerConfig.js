@@ -10,6 +10,7 @@ import FoodPoster from '@/pages/FoodPoster';
 import FoodIcon from '@/pages/FoodIcon';
 import ChalkOne from '@/pages/ChalkOne';
 import ChalkTwo from '@/pages/ChalkTwo';
+import ClearLemon from '@/pages/ClearLemon';
 import NotFound from '@/pages/NotFound';
 import BlankLayout from '@/layouts/BlankLayout';
 
@@ -65,6 +66,10 @@ const routerConfig = [
       {
         path: '/chalkTwo',
         component: ChalkTwo,
+      },
+      {
+        path: '/clearLemon',
+        component: ClearLemon,
       },
       {
         component: NotFound,

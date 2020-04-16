@@ -13,7 +13,7 @@ export default function Project() {
             </div>
             <div className={styles.projectShow}>
                 <div className={styles.projectPicShow}>
-                    <a href="/#/bjLandmark">
+                    <a href="/#/clearLemon">
                         <img src={pro1} alt="" className={styles.projectImg} />
                     </a>
                 </div>
