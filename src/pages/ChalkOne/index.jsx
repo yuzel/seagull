@@ -29,8 +29,8 @@ export default function ChalkOne() {
     return (
         <div>
             <Header />
-            <img src={top} style={{ maxWidth: '100%' }} />
             <div className={styles.show}>
+                <img src={top} style={{ maxWidth: '100%' }} />
                 <img src={pic1} className={styles.pic} />
                 <img src={pic2} className={styles.pic} />
                 <img src={pic3} className={styles.pic} />

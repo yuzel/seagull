@@ -14,8 +14,8 @@ const pic8 = require('./images/8.png');
 export default function LandingIntroBanner() {
     return (
         <div>
-            <img src={banner} style={{ maxWidth: '100%' }} />
             <div className={styles.show}>
+                <img src={banner} style={{ maxWidth: '100%' }} />
                 <img src={pic1} className={styles.pic} />
                 <img src={pic2} className={styles.pic} />
                 <img src={pic3} className={styles.pic} />

@@ -13,8 +13,8 @@ export default function CouldCourt() {
     return (
         <div>
             <Header />
-            <img src={banner} style={{ maxWidth: '100%' }} />
             <div className={styles.show}>
+                <img src={banner} style={{ maxWidth: '100%' }} />
                 <img src={design_show} className={styles.pic} />
                 <img src={design_method} className={styles.pic} style={{marginLeft: -29}}/>
                 <img src={pic1} className={styles.pic} />

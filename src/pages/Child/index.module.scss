@@ -1,4 +1,11 @@
 .pic{
-    max-width: 60%;
-    margin-left: 18%;
+    max-width: 55%;
+    margin-top: 30px;
+}
+
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }

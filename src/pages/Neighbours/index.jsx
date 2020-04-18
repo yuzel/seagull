@@ -14,8 +14,8 @@ export default function Neighbours() {
     return (
         <div>
             <Header />
-            <img src={banner} style={{ maxWidth: '100%' }} />
             <div className={styles.show}>
+                <img src={banner} style={{ maxWidth: '100%' }} />
                 <img src={design_show} className={styles.pic} style={{marginLeft: -210}}/>
                 <img src={design_method} className={styles.pic} />
                 <img src={pic1} className={styles.pic} />

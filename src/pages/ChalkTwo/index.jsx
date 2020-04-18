@@ -17,8 +17,8 @@ export default function ChalkTwo() {
     return (
         <div>
             <Header />
-            <img src={top} style={{ maxWidth: '100%' }} />
             <div className={styles.show}>
+                <img src={top} style={{ maxWidth: '100%' }} />
                 <img src={pic1} className={styles.pic} />
                 <img src={pic2} className={styles.pic} />
                 <img src={pic4} className={styles.pic} />
@@ -26,8 +26,8 @@ export default function ChalkTwo() {
                 <img src={pic6} className={styles.pic} />
                 <img src={pic7} className={styles.pic} />
                 <img src={pic8} className={styles.pic} />  
+                <img src={pic9} style={{ maxWidth: '100%' }} />
             </div>
-            <img src={pic9} style={{ maxWidth: '100%' }} />
         </div>
     );
 }

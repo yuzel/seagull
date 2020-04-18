@@ -16,8 +16,8 @@ export default function Logo() {
     return (
         <div>
             <Header />
-            <img src={banner} style={{ maxWidth: '100%' }} />
             <div className={styles.show}>
+                <img src={banner} style={{ maxWidth: '100%' }} />
                 <img src={design_method} className={styles.pic} style={{marginLeft: -13}}/>
                 <img src={pic1} className={styles.pic} />
                 <img src={pic2} className={styles.pic} />
